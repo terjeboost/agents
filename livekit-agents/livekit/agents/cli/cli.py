@@ -20,6 +20,7 @@ def run_app(
     hot_reload: NotGivenOr[bool] = NOT_GIVEN,
 ) -> None:
     """Run the CLI to interact with the worker"""
+    print("---- 'ello from the cli.run_app")
 
     cli = click.Group()
 
